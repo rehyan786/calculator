@@ -1,0 +1,630 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(5531f4cf-d32b-4644-876d-ef72c94b1ec4.jpeg);
+}
+.main{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    background-color:   background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(5px);;
+    color: #333;
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.08), 0 4px 8px rgba(255, 255, 255, 0.2), 
+    0 6px 20px rgba(0, 0, 0, 0.15);;
+    ,
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    
+}
+.firstsec{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.innerbox{
+    width: 85%;
+    height: 50%;
+    border-radius: 10px;
+    background-color:   rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(5px);
+    
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.08); 
+    text-align: ;
+    overflow: hidden;
+    font-size: 25px;
+    border-top: 0px 1px solid #444f51;
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.innerbox-inp{
+    width: 98.2%;
+    height: 95.5%;
+    border-radius: 10px;
+    background-color:   rgba(255, 255, 255, 0.0000000000000000000000000000001); /* Semi-transparent background */
+    backdrop-filter: blur(0);;
+    border:2px solid rgba(255, 255, 255, 0.25);
+    text-align: end;
+    text-align: right;
+    align-items: baseline;
+    border:0;
+    padding-top: px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 1px solid rgba(255, 255, 255, 0.08); */
+    
+    border-top: 0px 1px solid #444f51; */
+    
+}
+.whenclick{
+    
+}
+/* .smallbox{
+    position: absolute;
+    top: 24.1%;
+    left: 55.5%;
+    height: 25px;
+    width: 17px;
+    background-color: #A991E0;
+    ;
+    z-index: 1;
+} */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.secondsec{
+    
+    height: 12%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    ;
+}
+.mc{
+    cursor: pointer;
+    height: 20px;
+    width: 30px;
+    /* background-color: black; */
+    
+    border-radius: 3px;
+    background-color:   background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(5px);;
+    color: #333;
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.08);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+    font-size:15px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    
+}
+.mr{
+    cursor: pointer;
+    height: 20px;
+    width: 30px;
+    /* background-color: black; */
+    
+    border-radius: 3px;
+    background-color:   background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(5px);;
+    color: #333;
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.08);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+    font-size:15px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+}
+.mm{
+    cursor: pointer;
+    height: 20px;
+    width: 30px;
+    /* background-color: black; */
+    
+    border-radius: 3px;
+    background-color:   background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(5px);;
+    color: #333;
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.08);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+    font-size:15px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+}
+.ms{
+    cursor: pointer;
+    height: 20px;
+    width: 30px;
+    /* background-color: black; */
+    
+    border-radius: 3px;
+    background-color:   background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(5px);;
+    color: #333;
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.08);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+    font-size:15px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+}
+.thirdsec{
+    width: 100%;
+    height: 55%;
+    /* background-color: black; */
+    display: grid;
+    grid-template-columns: 75% 25%;
+    
+}
+.left{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+}
+.leftlineone{
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    grid-row: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.ac{
+    height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2), 
+            0 6px 20px rgba(0, 0, 0, 0.15);
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2); 
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:18px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.cut{
+    height: 27px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    padding-top: 5px;
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.slash{
+    height: 28px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font: size 17px;    
+padding-top: 5px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.leftlinesecond{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(43, 162, 226); */
+    grid-row: 2;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.seven{  height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.eight{   height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.nine{     height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.leftlinethird{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(226, 43, 43); */
+    grid-row: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.four{ height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.five{ height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.six{ height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.leftlinefour{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(159, 226, 43); */
+    grid-row: 4;display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.one{  height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.two{   height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.three{   height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 35px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;}
+.leftoflinefive{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(226, 43, 174); */
+    grid-row: 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+}
+.zero{
+    height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 100px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dot{
+    height: 30px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 37px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mul{ height: 26px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 45px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;}
+.minus{ height: 26px;
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 45px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;}
+.plus{ height: 35px;
+    background-color:  #94c3e1cc;
+    width: 45px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;}
+.equal{ height: 35px;
+    background-color:  #94c3e1cc;
+    width: 45px;
+    
+    backdrop-filter: blur(500px);;
+
+    box-shadow:0 0 1px 1px rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right:0.5px solid #444f51;
+    border-top: 0px 1px solid #444f51;
+    text-align:center;
+font-size:20px;
+    color: cornsilk;
+    font-family:"Poppins", serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;}
+
+.one:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.two:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.three:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.four:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.five:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.six:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}.seven:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}.eight:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}.nine:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.dot     :hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.zero:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.cut:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.ac:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.mul:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.slash:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.minus:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.plus:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.equal:hover{
+    background-color:  rgba(255, 255, 255, 0.4);
+}
