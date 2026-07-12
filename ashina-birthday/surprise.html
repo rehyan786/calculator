@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Make a Wish — Ashina</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700;800&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain-overlay"></div>
+  <div class="wash wash--one"></div>
+  <div class="wash wash--two"></div>
+  <div class="petals-field" id="petalsField"></div>
+  <div class="balloon-field" id="balloonField"></div>
+
+  <nav class="ribbon-nav">
+    <a href="home.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="var(--rose-deep)"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6.5 4.5 4.5 8.5C19 16.65 12 21 12 21Z"/></svg>
+      for Ashina
+    </a>
+    <ul class="ribbon-links" id="navLinks">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="letter.html">Letter</a></li>
+      <li><a href="reasons.html">Reasons</a></li>
+      <li><a href="garden.html">Garden</a></li>
+      <li><a href="memories.html">Memories</a></li>
+      <li><a href="surprise.html">Surprise</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <div class="theme-switch">
+        <span class="theme-dot" data-t="rosewood" title="Rosewood"></span>
+        <span class="theme-dot" data-t="lilac" title="Lilac Dusk"></span>
+        <span class="theme-dot" data-t="sage" title="Sage Garden"></span>
+      </div>
+      <button class="nav-burger" id="burger" aria-label="Open menu"><span></span></button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="finale wrap">
+      <p class="eyebrow reveal">One last thing</p>
+      <h1 class="reveal">Make a wish, <span class="script">Ashina</span></h1>
+      <p class="reveal" style="max-width:440px;">Blow out the candle when you're ready. I already know what I'm wishing for — you, happy, for as long as forever lasts.</p>
+
+      <div class="cake-wrap reveal">
+        <svg viewBox="0 0 200 200" width="220" height="220" aria-hidden="true">
+          <ellipse cx="100" cy="176" rx="72" ry="9" fill="var(--paper-edge)"/>
+          <rect x="38" y="118" width="124" height="52" rx="14" fill="var(--blush)"/>
+          <path d="M38 130 Q56 116 74 130 T110 130 T146 130 T162 130 L162 118 L38 118 Z" fill="var(--paper)"/>
+          <circle cx="56" cy="146" r="3.5" fill="var(--gold)"/>
+          <circle cx="100" cy="152" r="3.5" fill="var(--rose-deep)"/>
+          <circle cx="144" cy="146" r="3.5" fill="var(--gold)"/>
+          <rect x="64" y="76" width="72" height="46" rx="12" fill="var(--rose)"/>
+          <path d="M64 88 Q78 74 92 88 T120 88 T136 88 L136 76 L64 76 Z" fill="var(--paper)"/>
+          <rect x="96" y="46" width="8" height="32" rx="3" fill="var(--gold)"/>
+          <g id="smoke" class="smoke">
+            <ellipse cx="100" cy="30" rx="6" ry="10" fill="var(--plum-soft)" opacity=".5"/>
+            <ellipse cx="105" cy="18" rx="5" ry="8" fill="var(--plum-soft)" opacity=".35"/>
+          </g>
+          <g id="flame" class="flame">
+            <defs>
+              <linearGradient id="flameGrad" x1="0" y1="1" x2="0" y2="0">
+                <stop offset="0" stop-color="var(--rose-deep)"/>
+                <stop offset="1" stop-color="var(--gold)"/>
+              </linearGradient>
+            </defs>
+            <path d="M100 26c5 6 6 11 3 16-2 3-6 3-8 0-3-5-2-10 5-16Z" fill="url(#flameGrad)"/>
+          </g>
+        </svg>
+      </div>
+
+      <button class="btn-seal reveal" id="blowBtn" aria-label="Blow out the candle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12c2-4 4-6 8-6s6 2 8 6"/><path d="M2 12h4M18 12h4"/></svg>
+        <span>Blow</span>
+      </button>
+
+      <div class="finale-msg hide" id="finaleMsg">
+        <div class="divider"></div>
+        <p class="script" style="font-size:1.9rem;">Happy Birthday, my love.</p>
+        <p>I hope this year hands you everything you deserve and then some — softness on the hard days, adventure on the slow ones, and the quiet, certain knowledge that you are loved beyond measure. Every year I get to celebrate you feels like the best one yet.</p>
+        <p style="margin-bottom:0;">Forever yours,</p>
+        <p class="script" style="font-size:2.1rem;">Shadman</p>
+        <button class="btn-pill" id="againBtn" style="margin-top:20px;">Celebrate again 🎉</button>
+      </div>
+    </div>
+  </main>
+
+  <p class="footer-note">Made with more love than pixels.<span class="script">— Shadman</span></p>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

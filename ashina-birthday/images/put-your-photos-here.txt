@@ -1,0 +1,2 @@
+Drop real photos in this folder (e.g. photo1.jpg), then reference them
+from memories.html — see the README.md in the main folder for exact steps.

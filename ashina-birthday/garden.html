@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Garden — Ashina</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700;800&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .flower:nth-child(2n){ margin-bottom: -14px; }
+  .flower:nth-child(3n){ margin-bottom: 10px; }
+</style>
+</head>
+<body>
+  <div class="grain-overlay"></div>
+  <div class="wash wash--one"></div>
+  <div class="wash wash--two"></div>
+  <div class="petals-field" id="petalsField"></div>
+
+  <nav class="ribbon-nav">
+    <a href="home.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="var(--rose-deep)"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 4 7 4c2 0 3.5 1 5 3 1.5-2 3-3 5-3 4 0 6.5 4.5 4.5 8.5C19 16.65 12 21 12 21Z"/></svg>
+      for Ashina
+    </a>
+    <ul class="ribbon-links" id="navLinks">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="letter.html">Letter</a></li>
+      <li><a href="reasons.html">Reasons</a></li>
+      <li><a href="garden.html">Garden</a></li>
+      <li><a href="memories.html">Memories</a></li>
+      <li><a href="surprise.html">Surprise</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <div class="theme-switch">
+        <span class="theme-dot" data-t="rosewood" title="Rosewood"></span>
+        <span class="theme-dot" data-t="lilac" title="Lilac Dusk"></span>
+        <span class="theme-dot" data-t="sage" title="Sage Garden"></span>
+      </div>
+      <button class="nav-burger" id="burger" aria-label="Open menu"><span></span></button>
+    </div>
+  </nav>
+
+  <main>
+    <div class="wrap section">
+      <div class="center reveal">
+        <p class="eyebrow">A garden that blooms for you</p>
+        <h1>Every flower here <span class="script">blooms like my love for you</span></h1>
+        <p style="max-width:480px;margin:0 auto;">Scroll down to watch them grow. Click one to make it bloom a little brighter.</p>
+      </div>
+
+      <div class="garden-field" id="gardenField">
+        <div class="flower"><svg viewBox="0 0 100 170" style="overflow:visible"><path class="stem" pathLength="200" d="M50 168 C50 130 50 95 50 60" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/><path d="M50 118 C34 112 24 122 30 136 C41 136 49 126 50 118Z" fill="var(--sage)"/><g transform="translate(50,42)"><g class="bloom"><ellipse rx="13" ry="19" cy="-17" fill="var(--rose)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--rose)" transform="rotate(72)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--rose)" transform="rotate(144)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--rose)" transform="rotate(216)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--rose)" transform="rotate(288)"/><circle r="9" fill="var(--gold)"/></g></g></svg></div>
+
+        <div class="flower"><svg viewBox="0 0 100 170" style="overflow:visible"><path class="stem" pathLength="200" d="M50 168 C50 128 50 100 50 55" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/><path d="M50 108 C66 102 76 112 70 126 C59 126 51 116 50 108Z" fill="var(--sage)"/><g transform="translate(50,38)"><g class="bloom"><ellipse rx="12" ry="18" cy="-16" fill="var(--lilac)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--lilac)" transform="rotate(72)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--lilac)" transform="rotate(144)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--lilac)" transform="rotate(216)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--lilac)" transform="rotate(288)"/><circle r="8" fill="var(--gold)"/></g></g></svg></div>
+
+        <div class="flower"><svg viewBox="0 0 100 170" style="overflow:visible"><path class="stem" pathLength="200" d="M50 168 C50 132 50 98 50 62" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/><path d="M50 120 C34 114 24 124 30 138 C41 138 49 128 50 120Z" fill="var(--sage)"/><g transform="translate(50,44)"><g class="bloom"><ellipse rx="14" ry="20" cy="-18" fill="var(--rose-deep)"/><ellipse rx="14" ry="20" cy="-18" fill="var(--rose-deep)" transform="rotate(72)"/><ellipse rx="14" ry="20" cy="-18" fill="var(--rose-deep)" transform="rotate(144)"/><ellipse rx="14" ry="20" cy="-18" fill="var(--rose-deep)" transform="rotate(216)"/><ellipse rx="14" ry="20" cy="-18" fill="var(--rose-deep)" transform="rotate(288)"/><circle r="9" fill="var(--cream)"/></g></g></svg></div>
+
+        <div class="flower"><svg viewBox="0 0 100 170" style="overflow:visible"><path class="stem" pathLength="200" d="M50 168 C50 126 50 96 50 58" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/><path d="M50 112 C66 106 76 116 70 130 C59 130 51 120 50 112Z" fill="var(--sage)"/><g transform="translate(50,40)"><g class="bloom"><ellipse rx="12" ry="18" cy="-16" fill="var(--blush)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--blush)" transform="rotate(72)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--blush)" transform="rotate(144)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--blush)" transform="rotate(216)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--blush)" transform="rotate(288)"/><circle r="8" fill="var(--rose-deep)"/></g></g></svg></div>
+
+        <div class="flower"><svg viewBox="0 0 100 170" style="overflow:visible"><path class="stem" pathLength="200" d="M50 168 C50 130 50 95 50 60" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/><path d="M50 118 C34 112 24 122 30 136 C41 136 49 126 50 118Z" fill="var(--sage)"/><g transform="translate(50,42)"><g class="bloom"><ellipse rx="13" ry="19" cy="-17" fill="var(--lilac)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--lilac)" transform="rotate(72)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--lilac)" transform="rotate(144)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--lilac)" transform="rotate(216)"/><ellipse rx="13" ry="19" cy="-17" fill="var(--lilac)" transform="rotate(288)"/><circle r="9" fill="var(--gold)"/></g></g></svg></div>
+
+        <div class="flower"><svg viewBox="0 0 100 170" style="overflow:visible"><path class="stem" pathLength="200" d="M50 168 C50 128 50 100 50 55" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/><path d="M50 108 C66 102 76 112 70 126 C59 126 51 116 50 108Z" fill="var(--sage)"/><g transform="translate(50,38)"><g class="bloom"><ellipse rx="12" ry="18" cy="-16" fill="var(--rose)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--rose)" transform="rotate(72)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--rose)" transform="rotate(144)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--rose)" transform="rotate(216)"/><ellipse rx="12" ry="18" cy="-16" fill="var(--rose)" transform="rotate(288)"/><circle r="8" fill="var(--gold)"/></g></g></svg></div>
+      </div>
+
+      <p class="garden-hint reveal">psst — click the flowers 🌷</p>
+
+      <div class="center reveal" style="margin-top:50px;">
+        <a href="memories.html" class="btn-pill">Visit the memory board →</a>
+      </div>
+    </div>
+  </main>
+
+  <p class="footer-note">Made with more love than pixels.<span class="script">— Shadman</span></p>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
